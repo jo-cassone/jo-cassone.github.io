@@ -1,0 +1,61 @@
+.navbar-area{
+    position: relative;
+    background-color: #000;
+}
+.area-formulario{
+    padding-top: 60px;
+    padding-bottom: 140px;
+}
+.area-formulario h5{
+    color: #454546;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 34px;
+    text-transform: uppercase;
+}
+.area-formulario .tabla-titulo{
+    display: flex;
+    justify-content: space-around;
+    color: #454546;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.area-formulario .info-adicional{
+    margin-top: 40px;
+}
+.area-formulario .info-adicional textarea{
+    height: 180px;
+    resize: none;
+}
+.area-formulario .checkbox-cupon label,
+.area-formulario .checkbox-noticia label{
+    margin-left: 30px;
+    font-weight: 600;
+}
+.area-formulario .checkbox-noticia label{
+    padding-right: 120px;
+}
+.area-formulario .contenido-pedido{
+    padding-bottom: 40px;
+}
+.area-formulario .contenido-pedido .container .zona-inferior{
+    text-align: center;
+}
+.area-formulario .contenido-pedido .container .zona-inferior p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.area-formulario .contenido-pedido .container .zona-inferior p#pago-disponible{
+    font-weight: 600;
+}
+.area-formulario .contenido-pedido .container .zona-inferior p#datos-personales span{
+    font-weight: 600;
+}
+.area-formulario .contenido-pedido .container .zona-inferior .comprar{
+    background-color: #1D00FF;
+    color: #fff;
+}
+.area-footer{
+    background-image: url(../img/footer-alt.png);
+}

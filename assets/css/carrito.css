@@ -1,0 +1,99 @@
+.navbar-area{
+    position: relative;
+    background-color: #000;
+}
+.carrito-img{
+    background-image: url(../img/carrito.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 226px;
+}
+.compras{
+    background-color: #000;
+    padding-bottom: 280px;
+}
+.compras .container .row .caja-izquierda{
+    background-color: #fff;
+}
+.compras .container .row .caja-derecha{
+    background-color: #fff;
+    height: 244px;
+}
+/*ZONA IZQUIERDA*/
+.compras .objetos-compras{
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+.compras .objetos-compras h5{
+    padding-bottom: 40px;
+    color: #454546;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.compras .objetos-compras .table thead th{
+    font-size: 14px;
+    font-weight: 600;
+}
+.compras .objetos-compras .table #cantidad{
+    border-bottom: 1px solid #C9C6C6;
+    padding: 0 22px;
+}
+.compras .objetos-compras .table th a{
+    color: #848484;
+}
+.compras .objetos-compras .btn-tabla-compras{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.compras .objetos-compras .btn-tabla-compras a{
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.compras .objetos-compras .btn-tabla-compras .conjunto-btn .descuento{
+    background-color: #EAEAEA;
+    padding: 8px 45px;
+    color: #848484;
+}
+.compras .objetos-compras .btn-tabla-compras .conjunto-btn .cupon{
+    margin-left: 20px;
+    background-color: #000;
+    padding: 8px 45px;
+    color: #fff;
+}
+.compras .objetos-compras .btn-tabla-compras .actualizar{
+    color: #848484;
+    margin-right: 25px;
+}
+/*ZONA DERECHA*/
+.compras .check-out .texto h5{
+    font-size: 15px;
+    padding: 12px 0;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.compras .check-out .texto .precio-total .btn-precio-total a{
+    background-color: #009EE2;
+    color: #fff;
+}
+.compras .check-out .texto .precio-total .precio-contenido{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.compras .check-out .texto .precio-total .precio-contenido#destacado{
+    margin-bottom: 45px;
+}
+.compras .check-out .texto .precio-total .precio-contenido h6,
+.compras .check-out .texto .precio-total .precio-contenido p{
+    margin: 0;
+}
+.compras .check-out .texto .precio-total .precio-contenido#destacado h6,
+.compras .check-out .texto .precio-total .precio-contenido#destacado p{
+    font-weight: 600;   
+}
+.area-footer{
+    background-image: url(../img/footer-alt.png);
+}
