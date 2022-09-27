@@ -1,0 +1,8 @@
+section#tabla-ajax{
+    position: relative;
+    background-color: #f8f9fa;
+    border: 1px solid;
+    border-style: dashed;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
