@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--LINK RESET.CSS-->
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <!--LINK STYLE.CSS-->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <!--INTERIOR.CSS-->
+    <link rel="stylesheet" href="../assets/css/interior.css">
+    <!--LINK BOOTSTRAP.MIN.CSS-->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&family=Open+Sans:wght@600;800&family=Poppins:wght@700&display=swap"
+        rel="stylesheet">
+    <!--ICON PAGE-->
+    <link rel="shortcut icon" href="../assets/img/cloud-icon.png" type="image/x-icon">
+    <title>Turavion</title>
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="custom-header">
+            <div class="row mt-4">
+                <div class="display-none">
+                    <div class="col-xxl-4 col-xl-5 col-lg-3 d-inline-flex font-13 font-w-500">
+                        <p class="padd-contc-r"><i class="fas fa-phone-alt pe-1 font-15"></i> Mesa Central (+56 2) 1111
+                            1111</p>
+                        <p class="padd-contc-l"><i class="fas fa-phone-alt pe-1 font-15"></i> Mesa Central (+56 2) 1111
+                            1111</p>
+                    </div>
+                    <div class="col-xxl-6 col-xl-6 col-lg-7 d-inline-flex top-h font-13 custom-pl-1">
+                        <a href="#" class="pe-3">Contacto</a>
+                        <p class="pe-3">|</p>
+                        <a href="#" class="pe-3">Novedades</a>
+                        <p class="pe-3">|</p>
+                        <a href="#" class="pe-3">Quiénes Somos</a>
+                        <a class="custom-sign-in" href="#">Iniciar sesión <i class="fas fa-user-alt font-15"></i></a>
+                        <a class="ps-4" href="#">Registrate <i class="fas fa-user-alt font-15"></i></a>
+                    </div>
+                    <div class="col-xxl-1 col-xl-1 col-lg-1 d-inline-flex top-h font-13">
+                      <a href="https://www.facebook.com/" class="pe-2" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                      <a href="https://www.instagram.com/" class="pe-2" target="_blank"><i class="fab fa-instagram"></i></a>
+                      <a href="https://www.linkedin.com" class="pe-2" target="_blank"><i class="fab fa-linkedin"></i></a>
+                      <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <!--HAM BAR/ "MAX-WIDTH:992PX"-->
+                <div class="ham-bar">
+                    <!--DESDE LOS 992PX, EL NAV SE TRANSFORMA A ESTE MENU-->
+                    <nav class="navbar navbar-light bg-white fixed-top">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">CloudSky Menú</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                                aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">CloudSky</h5>
+                                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                        <li class="nav-item">
+                                            <a class="nav-link" aria-current="page" href="#">Contacto</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Novedades</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Quiénes Somos</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown"
+                                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Redes Sociales
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                                <li><a class="dropdown-item" href="#"><i
+                                                            class="fab fa-facebook-square pe-2"></i>Facebook</a></li>
+                                                <li><a class="dropdown-item" href="#"><i
+                                                            class="fab fa-instagram pe-2"></i>Instagram</a></li>
+                                                <li><a class="dropdown-item" href="#"><i
+                                                            class="fab fa-linkedin pe-2"></i>LinkedIn</a></li>
+                                                <li><a class="dropdown-item" href="#"><i
+                                                            class="fab fa-twitter pe-2"></i>Twitter</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!--INICIA SECCIÓN NAV-BAR + TÍTULO-->
+        <div class="row header-bg mt-2 py-3 justify-content-between">
+            <div class="col-xxl-3 col-xl-2 col-lg-3 col-md-11 pos-fix text-center">
+                <h1 class="cloudsky text-white ps-5 ms-3">CloudSky</h1>
+            </div>
+            <div class="col-xxl-7 col-xl-9 col-lg-8 col-md-12">
+                <ul class="nav align-items-star nav-bar nav-fix font-15 font-w-500">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/paquete.html">Paquetes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Cruceros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../pages/turavion.html" id="link-w">Asistencias en viaje</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" id="link-w">Viajes para empresas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" id="link-w">Reuniones y eventos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" id="link-w">Viajes de Experiencias</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--SECCIÓN "VOLVAMOS A VIAJAR" + BOTÓN-->
+        <div class="row">
+            <div class="col requisitos position-relative text-white">
+                <div class="h2-req">
+                    <h2 class="fs-1 fw-bold m-0">REQUISITOS PARA VIAJAR</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!--GRAN CONTENEDOR-->
+        <div class="cont-flights mar-bottom">
+            <h3 class="fs-2 text-pri font-w-700 px-4 my-5">¿ESTÁS PENSANDO EN VIAJAR O YA TIENES UN PASAJE?</h3>
+            <div class="row font-18 font-w-500">
+                <!--COL CON IMAGEN-->
+                <div class="col-6 position-relative">
+                    <div class="col-img border border-2 border-secondary shadow">
+                        <img src="../assets/img/col-img-1.png" alt="column-img-1">
+                    </div>
+                </div>
+                <!--COL CON PARRAFO-->
+                <div class="col-5 pensand-p"><!--padding-right: 68px-->
+                    <p class="lh-1">Asegúrate de que cumples con estas condiciones y evita problemas el día de tu viaje o durante tu estadía:</p>
+                    <p class="lh-1 m-0 pt-4"><span class="ps-4">Haz</span> clic en tu país en el mapa para revisar los requisitos de destinos nacionales. Para restricciones internacionales,
+                         también puedes usar el buscador de origen/destino.</p>
+                    <p class="lh-1 m-0"><span class="ps-4">Lee</span> con atención las restricciones que existen <span class="d-grid">actualmente.</span></p>   
+                    <p class="lh-1 mb-5"><span class="ps-4">Te</span> recomendamos revisar esta información antes de comprar tu pasaje, pero también los días previos a tu vuelo porque
+                         esta puede cambiar muy seguido.</p>
+                    <p class="lh-1 pt-3">*Si tienes un vuelo de conexión con otra aerolínea, infórmate en su sitio web sobre los requisitos que debes cumplir
+                         para esa parte de tu viaje. También te recomendamos revisar el sitio web de la Asociación de Transporte Aéreo 
+                         Internacional (IATA) para obtener información adicional.</p>       
+                </div>
+            </div>
+            <div class="row separador font-18 font-w-500">
+                <!--COL CON IMAGEN-->
+                <div class="col-6 pensando-p-2"><!--padding-right: 68px-->
+                    <p class="lh-1">Importante:</p>
+                    <p class="lh-1 m-0 mb-3 pt-2">Si tu lugar de destino requiere un test PCR, te <span class="d-grid">recomendamos que este especifique la fecha y hora en la <span class="d-grid"></span>que fue tomado.</span></span></p>
+                    <p class="lh-1 m-0 mb-3">Sin importar tu destino, deberás usar tu mascarilla en todo <span class="d-grid">momento del vuelo. Conoce las medidas de seguridad e</span> higiene, implementadas por LATAM.</p>   
+                    <p class="lh-1 mb-5">Revisa si para abordar el avión o al llegar a tu lugar de <span class="d-grid">destino debes presentar tu certificado de vacunación.</span></p>     
+                </div>
+                <!--COL CON PARRAFO-->
+                <div class="col-5">
+                    <div class="col-img-2 border border-2 border-secondary shadow">
+                        <img src="../assets/img/col-img-2.png" alt="column-img-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--CONTENEDOR REPETIDO-->
+        <div class="cont-final bg-final">
+            <h4 class="text-pri mb-3 font-27 font-w-500">Han vivido la experiencia Cloud Sky</h4>
+            <div class="row">
+              <!--PRIMERA TARJETITA-->
+              <div class="col-3">
+                <div class="user-exp shadow text-four">
+                  <figure>
+                    <img src="../assets/img/usuario-1.png" alt="user-1">
+                    <span><h6 class="font-17 font-w-700 m-0">Vocalista foo..</h6>
+                  <p class="font-12 font-w-600 m-0">Hace 1 semana</p></span>
+                    <figcaption class="font-14 font-w-400 mt-2">"Super buena atención Lorem Ipsum is simply dummy Ipsum is simply dummy Ipsum is"</figcaption>
+                  </figure>
+                </div>
+              </div>
+              <!--SEGUNDA TARJETITA-->
+              <div class="col-3">
+                <div class="user-exp shadow text-four">
+                  <figure>
+                    <img src="../assets/img/usuario-2.png" alt="user-2">
+                    <span><h6 class="font-17 font-w-700 m-0">Capitan garfio</h6>
+                  <p class="font-12 font-w-600 m-0">Hace 1 semana</p></span>
+                    <figcaption class="font-14 font-w-400 mt-2">"Super buena atención Lorem Ipsum is simply dummy Ipsum is simply dummy Ipsum is"</figcaption>
+                  </figure>
+                </div>
+              </div>
+              <!--TERCERA TARJETITA-->
+              <div class="col-3">
+                <div class="user-exp shadow text-four">
+                  <figure>
+                    <img src="../assets/img/usuario-2.png" alt="user-2.1">
+                    <span><h6 class="font-17 font-w-700 m-0">Capitan garfio v2</h6>
+                  <p class="font-12 font-w-600 m-0">Hace 1 semana</p></span>
+                    <figcaption class="font-14 font-w-400 mt-2">"Super buena atención Lorem Ipsum is simply dummy Ipsum is simply dummy Ipsum is"</figcaption>
+                  </figure>
+                </div>
+              </div>
+              <!--CUARTA TARJETITA-->
+              <div class="col-3">
+                <div class="user-exp shadow text-four">
+                  <figure>
+                    <img src="../assets/img/usuario-3.png" alt="user-3">
+                    <span><h6 class="font-17 font-w-700 m-0">El loquillo de metallica</h6>
+                  <p class="font-12 font-w-600 m-0">Hace 1 semana</p></span>
+                    <figcaption class="font-14 font-w-400 mt-2">"Super buena atención Lorem Ipsum is simply dummy Ipsum is simply dummy Ipsum is"</figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <!--ZONA DE PARTNERS-->
+            <div class="row mt-5">
+              <div class="col">
+                <div class="partners text-pri shadow">
+                  <h5 class="font-24 font-w-600">Nuestros partners</h5>
+                  <p class="font-15 font-w-400">Partners de gran trayectoria Abalan nuestro trabajo</p>
+                  <div class="partn-img">
+                    <img class="pe-5" src="../assets/img/partner-1-1.png" alt="partner-1">
+                    <img class="pe-5" src="../assets/img/partner-2-2.png" alt="partner-2">
+                    <img class="pe-5" src="../assets/img/partner-3-3.png" alt="partner-3">
+                    <img class="pe-5" src="../assets/img/partner-4-4.png" alt="partner-4">
+                    <img class="pe-5" src="../assets/img/partner-5-5.png" alt="partner-5">
+                    <img src="../assets/img/partner-6-6.png" alt="partner-6">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-5">
+              <div class="col">
+                <div class="como-pagar text-pri shadow">
+                  <h5 class="mt-4 font-18 font-w-700">Elige cómo pagar</h5>
+                  <p class="font-16 font-w-400">Lorem Ipsum is simply</p>
+                  <div class="pagar-img">
+                      <a href="#"><img class="pe-5 me-2" src="../assets/img/falabella.png" alt="falabella"></a>
+                      <a href="#"><img class="pe-5 me-2" src="../assets/img/mastercard.png" alt="mastercard"></a>
+                      <a href="#"><img class="pe-5 me-2" src="../assets/img/visa.png" alt="visa"></a>
+                      <a href="#"><img class="pe-5 me-2" src="../assets/img/scotiabank.png" alt="scotiabank"></a>
+                      <a href="#"><img class="pe-5 me-2" src="../assets/img/bci.png" alt="bci"></a>
+                      <a href="#"><img class="pe-5 me-2" src="../assets/img/banco-estado.png" alt="banco-estado"></a>
+                      <a href="#"><img class="pe-5 me-2" src="../assets/img/cencosud.png" alt="cencosud"></a>
+                      <a href="#"><img class="pe-5 me-2" src="../assets/img/bice.png" alt="bice"></a>
+                      <a href="#"><img src="../assets/img/santander.png" alt="santander"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <!--COMIENZO DEL FOOTER!!!!-->
+        <footer class="container-fluid p-0 foo">
+          <div class="cont-flights">
+          <div class="row border-bottom border-info pt-4">
+            <div class="col-xxl-3">
+              <h6 class="text-white font-60 font-w-700">Cloud Sky</h6>
+            </div>
+            <div class="col-xxl-3 pt-3">
+              <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="#">Quiénes Somos</a></li>
+                <li><a href="../pages/paquete.html">Paquetes</a></li>
+                <li><a href="#">Cruceros</a></li>
+              </ul>
+            </div>
+            <div class="col-xxl-3 pt-3">
+              <ul>
+                <li><a href="#">Viajes para empresas</a></li>
+                <li><a href="#">Reuniones y eventos</a></li>
+                <li><a href="#">Receptivo incoming</a></li>
+                <li><a href="#">Novedades</a></li>
+              </ul>
+            </div>
+            <div class="col-xxl-3 pt-3">
+              <ul>
+                <li><a href="#">Experiencias</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Trabaja con Nosotros</a></li>
+                <li><a href="#">Políticas de privacidad</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row pt-5 pb-4 border-bottom border-info">
+            <div class="col">
+              <ul class="foo-ul">
+                <li>CASA MTRIZ</li>
+                <li class="d-grid lh-1">Mesa Central:<span class="font-w-500">(+56 9) 9545 8898</span></li>
+                <li class="d-grid lh-1">VENTAS VACACIONALES:<span class="font-w-500">(+56 2) 1111 22222</span></li>
+                <li class="d-grid lh-1">VENTAS VACACIONALES:<span class="font-w-500">(+56 2) 1111 22222</span></li>
+                <li class="d-grid lh-1">ATENCIÓN:<span class="font-w-500">Lunes a domingo 07:00 a 23:00 hrs.</span></li>
+                <li class="d-grid lh-1">DIRECCIÓN:<span class="font-w-500">Segundo nivel del Aeropuerto,oficina B 202</span></li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="foo-ul">
+                <li class="pb-5">OFICINA AEROPUERTO</li>
+                <li class="d-grid lh-1">Mesa Central:<span class="font-w-500">(+56 2) 1111 2222</span></li>
+                <li class="d-grid lh-1">Móvil:<span class="font-w-500">(+56 2) 1111 2222</span></li>
+                <li class="d-grid lh-1">ATENCIÓN:<span class="font-w-500">Lunes a domingo 07:00 a 23:00 hrs.</span></li>
+                <li class="d-grid lh-1">DIRECCIÓN:<span>Segundo nivel del Aeropuerto,oficina B 202</span></li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="foo-ul">
+                <li class="d-grid lh-sm">TELÉFONO DE EMERGENCIAS / <span>EMERGENCY NUMBER</span></li>
+                <li class="d-grid lh-1">Mesa Central:<span class="font-w-500">(+56 9) 9545 8898</span></li>
+                <li class="d-grid lh-1">VENTAS VACACIONALES:<span class="font-w-500">(+56 2) 1111 22222</span></li>
+                <li class="d-grid lh-1">VENTAS VACACIONALES:<span class="font-w-500">(+56 2) 1111 22222</span></li>
+                <li class="d-grid lh-1">ATENCIÓN:<span class="font-w-500">Lunes a domingo 07:00 a 23:00 hrs.</span></li>
+                <li class="d-grid lh-1">DIRECCIÓN:<span class="font-w-500">Segundo nivel del Aeropuerto,oficina B 202</span></li>
+              </ul>
+    
+            </div>
+          </div>
+          <div class="row py-4">
+            <div class="col text-center">
+              <a class="text-white text-decoration-none font-14" href="#">Términos y condiciones</a>
+            </div>
+          </div>
+        </div>
+        <div class="row m-0 ultima-caja p-0">
+          <div class="col p-4">
+            <p class="ps-5 text-white font-14 font-w-700 m-0">2020 &copy; Todos los derechos reservados</p>
+          </div>
+          <div class="col p-4 text-center p-0">
+            <a class="pe-3" href="#"><i class="fab fa-facebook-square"></i></a>
+            <a class="pe-3" href="#"><i class="fab fa-instagram"></i></a>
+            <a class="pe-3" href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        </footer>
+    <!--ZONA DE SCRIPTS-->
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/bd85c815d6.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

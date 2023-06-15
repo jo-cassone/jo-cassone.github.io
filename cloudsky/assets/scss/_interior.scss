@@ -1,0 +1,27 @@
+//Aquí ira todo lo de la 2° pagina
+.requisitos{
+    background-image: url(../img/requisitos.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #6700CE;
+    height: 440px;
+}
+.h2-req{
+    position: absolute;
+    bottom: 48%;
+    left: 15.3%;
+}
+.col-img{
+    display: flex;
+    height: 88%;
+    position: absolute;
+    left: 8%;
+}
+.col-img-2{
+    display: flex;
+    height: 96%;
+}
+.separador{
+    margin-top: 160px !important;
+    height: 390px;
+}
