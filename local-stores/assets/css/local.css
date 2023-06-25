@@ -47,6 +47,10 @@ a {
   display: flex;
   align-items: center;
 }
+.top-bar-right ul {
+  display: flex;
+  align-items: center;
+}
 .top-bar-right li {
   display: inline-block;
   margin-right: 34px;
@@ -711,8 +715,11 @@ footer {
     width: 1300px;
     height: 500px;
   }
+  .footer-award-container {
+    font-size: 190%;
+  }
 }
-@media screen and (max-width: 992px) {
+@media (max-width: 992px) {
   .header-top {
     padding: 0 70px;
   }
@@ -768,14 +775,14 @@ footer {
     font-size: 10pt;
   }
   .section-map {
-    height: 351px;
+    height: 450px;
   }
-  .section-map img {
-    width: 61%;
+  .section-map .iframe-map {
+    width: 1050px;
+    height: 450px;
   }
   .map-text {
-    padding: 20px 0 0 0;
-    line-height: 17px;
+    padding: 20px 0 0 20px;
   }
   .map-text p {
     font-size: 8pt;
