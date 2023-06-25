@@ -6,6 +6,7 @@
 body {
   flex-wrap: wrap;
   font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
 }
 /*Montserrat Light: 300, Regular: 400, Bold: 700*/
 /*Roboto Regular:400*/
