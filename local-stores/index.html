@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/local.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,276 +16,280 @@
 </head>
 
 <body>
-        <header class="header-top">
-            <section class="top-bar-left">
-                <a href="#">Currency : GBP</a>
-                <i class="fas fa-angle-down"></i>
-            </section>
-            <section class="top-bar-right">
-                    <div class="user-margin">
-                        <a href="#"><i class="fas fa-user" id="user-icon"></i></a>
-                    </div>
+    <header class="header-top">
+        <section class="top-bar-left">
+            <a href="#">Currency : GBP</a>
+            <i class="fas fa-angle-down"></i>
+        </section>
+        <section class="top-bar-right">
+            <div class="user-margin">
+                <a href="#"><i class="fas fa-user" id="user-icon"></i></a>
+            </div>
+            <ul>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Sign In</a></li>
+            </ul>
+            <div class="box-cart">
+                <a class="cart-a" href="#"><i class="fas fa-shopping-cart" id="cart"></i></a>
+                <a href="#">empty</a>
+                <i class="fas fa-angle-down" id="angle-down"></i>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="nav">
+            <h1><span>AVENUE</span> FASHION</h1>
+            <nav class="nav-contents">
                 <ul>
-                    <li><a href="#">Register</a></li>
-                    <li><a href="#">Sign In</a></li>
+                    <i class="fas fa-angle-down" id="nav-angle"></i>
+                    <li class="submenu"><a href="#">MENS</a>
+                        <div class="submenu-box">
+                            <div class="submenu-column1">
+                                <ul>
+                                    <li class="tittle">CASUALS</li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="#">Polo Shirts</a></li>
+                                    <li><a href="#">Sportswear</a></li>
+                                    <li><a href="#">Trouser & Chinos</a></li>
+                                    <li><a href="#">T-Shirts</a></li>
+                                </ul>
+                            </div>
+                            <div class="submenu-column2">
+                                <ul>
+                                    <li class="tittle">FORMAL</li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Shirts</a></li>
+                                    <li><a href="#">Suits</a></li>
+                                    <li><a href="#">Trousers</a></li>
+                                </ul>
+                            </div>
+                            <div class="black-box">
+                                <a href="#"><img src="assets/img/banner.png" alt="banner-menu"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <i class="fas fa-angle-down" id="nav-angle"></i>
+                    <li class="submenu"><a href="#">WOMENS</a>
+                        <div class="submenu-box-w">
+                            <div class="submenu-w-column1">
+                                <ul>
+                                    <li class="tittle">CASUALS</li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="#">Polo Shirts</a></li>
+                                    <li><a href="#">Sportswear</a></li>
+                                    <li><a href="#">Trouser & Chinos</a></li>
+                                    <li><a href="#">T-Shirts</a></li>
+                                </ul>
+                            </div>
+                            <div class="submenu-w-column2">
+                                <ul>
+                                    <li class="tittle">FORMAL</li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Shirts</a></li>
+                                    <li><a href="#">Suits</a></li>
+                                    <li><a href="#">Trousers</a></li>
+                                </ul>
+                            </div>
+                            <div class="black-box">
+                                <a href="#"><img src="assets/img/banner.png" alt="banner-menu"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#">THE BRAND</a></li>
+                    <li><a href="#">LOCAL STORES</a></li>
+                    <i class="fas fa-angle-down" id="nav-angle"></i>
+                    <li class="submenu"><a href="#">LOOK BOOK</a>
+                        <div class="submenu-box-l">
+                            <div class="submenu-l-column1">
+                                <ul>
+                                    <li class="tittle">CASUALS</li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Hoodies & Sweatshirts</a></li>
+                                    <li><a href="#">Polo Shirts</a></li>
+                                    <li><a href="#">Sportswear</a></li>
+                                    <li><a href="#">Trouser & Chinos</a></li>
+                                    <li><a href="#">T-Shirts</a></li>
+                                </ul>
+                            </div>
+                            <div class="submenu-l-column2">
+                                <ul>
+                                    <li class="tittle">FORMAL</li>
+                                    <li><a href="#">Jackets</a></li>
+                                    <li><a href="#">Shirts</a></li>
+                                    <li><a href="#">Suits</a></li>
+                                    <li><a href="#">Trousers</a></li>
+                                </ul>
+                            </div>
+                            <div class="black-box">
+                                <a href="#"><img src="assets/img/banner.png" alt="banner-menu"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="search-box"><input type="search" name="buscar" id="search-type"
+                            placeholder="Search..."><i class="fas fa-search" id="search-icon"></i></li>
+
                 </ul>
-                <div class="box-cart">
-                    <a class="cart-a" href="#"><i class="fas fa-shopping-cart" id="cart"></i></a>
-                    <a href="#">empty</a>
-                    <i class="fas fa-angle-down" id="angle-down"></i>
-                </div>
-            </section>
-        </header>
-        <main>
-            <section class="nav">
-                <h1><span>AVENUE</span> FASHION</h1>
-                <nav class="nav-contents">
-                    <ul>
-                        <i class="fas fa-angle-down" id="nav-angle"></i>
-                        <li class="submenu"><a href="#">MENS</a>
-                            <div class="submenu-box">
-                                <div class="submenu-column1">
-                                    <ul>
-                                        <li class="tittle">CASUALS</li>
-                                        <li><a href="#">Jackets</a></li>
-                                        <li><a href="#">Hoodies & Sweatshirts</a></li>
-                                        <li><a href="#">Polo Shirts</a></li>
-                                        <li><a href="#">Sportswear</a></li>
-                                        <li><a href="#">Trouser & Chinos</a></li>
-                                        <li><a href="#">T-Shirts</a></li>
-                                    </ul>
-                                </div>
-                                <div class="submenu-column2">
-                                    <ul>
-                                        <li class="tittle">FORMAL</li>
-                                        <li><a href="#">Jackets</a></li>
-                                        <li><a href="#">Shirts</a></li>
-                                        <li><a href="#">Suits</a></li>
-                                        <li><a href="#">Trousers</a></li>
-                                    </ul>
-                                </div>
-                                <div class="black-box">
-                                    <a href="#"><img src="assets/img/banner.png" alt="banner-menu"></a>
-                                </div>
-                            </div>
-                        </li>
-                        <i class="fas fa-angle-down" id="nav-angle"></i>
-                        <li class="submenu"><a href="#">WOMENS</a>
-                            <div class="submenu-box-w">
-                                <div class="submenu-w-column1">
-                                    <ul>
-                                        <li class="tittle">CASUALS</li>
-                                        <li><a href="#">Jackets</a></li>
-                                        <li><a href="#">Hoodies & Sweatshirts</a></li>
-                                        <li><a href="#">Polo Shirts</a></li>
-                                        <li><a href="#">Sportswear</a></li>
-                                        <li><a href="#">Trouser & Chinos</a></li>
-                                        <li><a href="#">T-Shirts</a></li>
-                                    </ul>
-                                </div>
-                                <div class="submenu-w-column2">
-                                    <ul>
-                                        <li class="tittle">FORMAL</li>
-                                        <li><a href="#">Jackets</a></li>
-                                        <li><a href="#">Shirts</a></li>
-                                        <li><a href="#">Suits</a></li>
-                                        <li><a href="#">Trousers</a></li>
-                                    </ul>
-                                </div>
-                                <div class="black-box">
-                                    <a href="#"><img src="assets/img/banner.png" alt="banner-menu"></a>
-                                </div>
-                            </div>
-                        </li>
-                        <li><a href="#">THE BRAND</a></li>
-                        <li><a href="#">LOCAL STORES</a></li>
-                        <i class="fas fa-angle-down" id="nav-angle"></i>
-                        <li class="submenu"><a href="#">LOOK BOOK</a>
-                            <div class="submenu-box-l">
-                                <div class="submenu-l-column1">
-                                    <ul>
-                                        <li class="tittle">CASUALS</li>
-                                        <li><a href="#">Jackets</a></li>
-                                        <li><a href="#">Hoodies & Sweatshirts</a></li>
-                                        <li><a href="#">Polo Shirts</a></li>
-                                        <li><a href="#">Sportswear</a></li>
-                                        <li><a href="#">Trouser & Chinos</a></li>
-                                        <li><a href="#">T-Shirts</a></li>
-                                    </ul>
-                                </div>
-                                <div class="submenu-l-column2">
-                                    <ul>
-                                        <li class="tittle">FORMAL</li>
-                                        <li><a href="#">Jackets</a></li>
-                                        <li><a href="#">Shirts</a></li>
-                                        <li><a href="#">Suits</a></li>
-                                        <li><a href="#">Trousers</a></li>
-                                    </ul>
-                                </div>
-                                <div class="black-box">
-                                    <a href="#"><img src="assets/img/banner.png" alt="banner-menu"></a>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="search-box"><input type="search" name="buscar" id="search-type" placeholder="Search..."><i class="fas fa-search" id="search-icon"></i></li>
-                        
-                    </ul>
-                </nav>
-            </section>
-            <section class="bg-header">
-                <figure class="intro-bg">
-                    <img src="assets/img/intro-img.png" alt="bg-header">
-                </figure>
-            </section>
-            <section class="text-zone">
-                <div class="places">
-                    <article class="place">
-                        <h4>LONDON</h4>
-                        <p class="p-1">180-182 REGENT STREET, LONDON, W1B 5BT</p>
-                        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolorum
-                            recusandae
-                            nostrum
-                            repudiandae porro impedit eius voluptatibus nam sint dicta deleniti cum tenetur eum omnis,
-                            provident earum distinctio. Fugit, excepturi!</p>
-                        <a class="view" href="#london">
-                            <p>V I E W</p>
-                            <p>D E T A I L S</p>
-                        </a>
-                    </article>
-                    <article class="place">
-                        <h4>NEW YORK</h4>
-                        <p class="p-1">180-182 REGENT STREET, LONDON, W1B 5BT</p>
-                        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolorum
-                            recusandae
-                            nostrum
-                            repudiandae porro impedit eius voluptatibus nam sint dicta deleniti cum tenetur eum omnis,
-                            provident earum distinctio. Fugit, excepturi!</p>
-                        <a class="view" href="#">
-                            <p>V I E W</p>
-                            <p>D E T A I L S</p>
-                        </a>
-                    </article>
-                    <article class="place">
-                        <h4>PARIS</h4>
-                        <p class="p-1">180-182 REGENT STREET, LONDON, W1B 5BT</p>
-                        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolorum
-                            recusandae
-                            nostrum
-                            repudiandae porro impedit eius voluptatibus nam sint dicta deleniti cum tenetur eum omnis,
-                            provident earum distinctio. Fugit, excepturi!</p>
-                        <a class="view" href="#london">
-                            <p>V I E W</p>
-                            <p>D E T A I L S</p>
-                        </a>
-                    </article>
-                </div>
-            </section>
-            <section class="section-map" id="london">
-                <img class="map" src="assets/img/map-greyscale.png" alt="map-content">
-                <div class="map-text">
+            </nav>
+        </section>
+        <section class="bg-header">
+            <figure class="intro-bg">
+                <img src="assets/img/intro-img.png" alt="bg-header">
+            </figure>
+        </section>
+        <section class="text-zone">
+            <div class="places">
+                <article class="place">
                     <h4>LONDON</h4>
-                    <p class="p-street">180-182 REGENT STREET, LONDON, W1B 5BT</p>
-                    <p class="p-direct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolorum recusandae
+                    <p class="p-1">180-182 REGENT STREET, LONDON, W1B 5BT</p>
+                    <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolorum
+                        recusandae
                         nostrum
                         repudiandae porro impedit eius voluptatibus nam sint dicta deleniti cum tenetur eum omnis,
                         provident earum distinctio. Fugit, excepturi!</p>
-                    <div class="direction">
-                        <i class="fas fa-map-marker-alt" id="icon-d"></i>
-                        <p>180-182 Regent Street, London, W1B 5BT</p>
-                        <i class="fas fa-phone-alt" id="icon-d"></i>
-                        <p>0123-456-789</p>
-                        <i class="fas fa-link" id="icon-d"></i>
-                        <p>www..yourwebsite.com</p>
-                        <i class="far fa-envelope" id="icon-d"></i>
-                        <p>support@yourwebsite.com</p>
-                        <i class="far fa-clock" id="icon-d"></i>
-                        <p>Monday-Friday: 9am to 6pm Saturday: 10am to 6pm Sunday: 10am to 2pm</p>
-                    </div>
-                    <div class="rrss">
-                        <ul>
-                            <li><a class="button-f" href="#"><i class="fab fa-facebook-f" id="facebook"></i></a></li>
-                            <li><a class="button-t-p" href="#"><i class="fab fa-twitter" id="twitter"></i></a></li>
-                            <li><a class="button-i" href="#"><i class="fab fa-instagram" id="instagram"></i></a></li>
-                            <li><a class="button-t-p" href="#"><i class="fab fa-pinterest" id="pinterest"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div class="column-foo">
-                <ul class="sec-foo">
-                    <h4>INFORMATION</h4>
-                    <li><a href="#">The brand</a></li>
-                    <li><a href="#">Local stores</a></li>
-                    <li><a href="#">Customer service</a></li>
-                    <li><a href="#">Privacy & cookies</a></a></li>
-                    <li><a href="#">Site map</a></a></li>
-                </ul>
-                <ul class="sec-foo">
-                    <h4>WHY BUY FROM US</h4>
-                    <li><a href="#">Shipping & returns</a></li>
-                    <li><a href="#">Secure shopping</a></li>
-                    <li><a href="#">Testimonials</a></li>
-                    <li><a href="#">Award winning</a></li>
-                    <li><a href="#">Ethical trading</a></li>
-                </ul>
-                <ul class="sec-foo">
-                    <h4>YOUR ACCOUNT</h4>
-                    <li><a href="#">Sign in</a></li>
-                    <li><a href="#">Register</a></li>
-                    <li><a href="#">View cart</a></li>
-                    <li><a href="#">View your lookbook</a></li>
-                    <li><a href="#">Track an order</a></li>
-                    <li><a href="#">Update information</a></li>
-                </ul>
-                <ul class="sec-foo">
-                    <h4>LOOKBOOK</h4>
-                    <li><a href="#">Latest post</a></li>
-                    <li><a href="#">Men's lookbook</a></li>
-                    <li><a href="#">Women's lookbook</a></li>
-                    <li><a href="#">Lookbook RSS feed</a></li>
-                    <li><a href="#">View your lookbook</a></li>
-                    <li><a href="#">Delete your lookbook</a></li>
-                </ul>
-                <ul class="sec-foo">
-                    <h4>CONTACT DETAILS</h4>
-                    <li class="sec-foo-end-list-element">Head Office: Avenue Fashion. 180-182 Regent Street, London.
-                    </li>
-                    <li class="sec-foo-end-list-element">Telephone: 0123-456-789</li>
-                    <li class="sec-foo-end-list-element">Email: support@yourwebsite.com</li>
-                </ul>
+                    <a class="view" href="#london">
+                        <p>V I E W</p>
+                        <p>D E T A I L S</p>
+                    </a>
+                </article>
+                <article class="place">
+                    <h4>NEW YORK</h4>
+                    <p class="p-1">180-182 REGENT STREET, LONDON, W1B 5BT</p>
+                    <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolorum
+                        recusandae
+                        nostrum
+                        repudiandae porro impedit eius voluptatibus nam sint dicta deleniti cum tenetur eum omnis,
+                        provident earum distinctio. Fugit, excepturi!</p>
+                    <a class="view" href="#">
+                        <p>V I E W</p>
+                        <p>D E T A I L S</p>
+                    </a>
+                </article>
+                <article class="place">
+                    <h4>PARIS</h4>
+                    <p class="p-1">180-182 REGENT STREET, LONDON, W1B 5BT</p>
+                    <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolorum
+                        recusandae
+                        nostrum
+                        repudiandae porro impedit eius voluptatibus nam sint dicta deleniti cum tenetur eum omnis,
+                        provident earum distinctio. Fugit, excepturi!</p>
+                    <a class="view" href="#london">
+                        <p>V I E W</p>
+                        <p>D E T A I L S</p>
+                    </a>
+                </article>
             </div>
-            <div class="footer-container">
-                <div class="footer-award-container">
-                    <h5>AWARD WINNER</h5>
-                    <p>FASHION AWARDS 2O16</p>
+        </section>
+        <section class="section-map" id="london">
+            <iframe class="iframe-map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.0406853343948!2d-0.1423967872375218!3d51.51246957169691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d5742d021f%3A0xa612bb1b1adfcb37!2s180-182%20Regent%20St.%2C%20London%20W1B%205TJ%2C%20Reino%20Unido!5e0!3m2!1ses-419!2scl!4v1687662320910!5m2!1ses-419!2scl"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map-text">
+                <h4>LONDON</h4>
+                <p class="p-street">180-182 REGENT STREET, LONDON, W1B 5BT</p>
+                <p class="p-direct">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt dolorum recusandae
+                    nostrum
+                    repudiandae porro impedit eius voluptatibus nam sint dicta deleniti cum tenetur eum omnis,
+                    provident earum distinctio. Fugit, excepturi!</p>
+                <div class="direction">
+                    <i class="fas fa-map-marker-alt" id="icon-d"></i>
+                    <p>180-182 Regent Street, London, W1B 5BT</p>
+                    <i class="fas fa-phone-alt" id="icon-d"></i>
+                    <p>0123-456-789</p>
+                    <i class="fas fa-link" id="icon-d"></i>
+                    <p>www..yourwebsite.com</p>
+                    <i class="far fa-envelope" id="icon-d"></i>
+                    <p>support@yourwebsite.com</p>
+                    <i class="far fa-clock" id="icon-d"></i>
+                    <p>Monday-Friday: 9am to 6pm Saturday: 10am to 6pm Sunday: 10am to 2pm</p>
                 </div>
-                <div class="footer-social-media">
-                    <a href="https://www.facebook.com/" target="_blank">
-                        <i class="fab fa-facebook-f fa-2x" id="icon-foo"></i>
-                    </a>
-                    <a href="https://www.twitter.com/" target="_blank">
-                        <i class="fab fa-twitter fa-2x" id="icon-foo"></i>
-                    </a>
-                    <a href="http://instagram.com/" target="_blank">
-                        <i class="fab fa-instagram fa-2x" id="icon-foo"></i>
-                    </a>
-                    <a href="https://pinterest.com/" target="_blank">
-                        <i class="fab fa-pinterest fa-2x" id="icon-foo"></i>
-                    </a>
+                <div class="rrss">
+                    <ul>
+                        <li><a class="button-f" href="#"><i class="fab fa-facebook-f" id="facebook"></i></a></li>
+                        <li><a class="button-t-p" href="#"><i class="fab fa-twitter" id="twitter"></i></a></li>
+                        <li><a class="button-i" href="#"><i class="fab fa-instagram" id="instagram"></i></a></li>
+                        <li><a class="button-t-p" href="#"><i class="fab fa-pinterest" id="pinterest"></i></a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="footer-end">
-                <div class="footer-end-subcontainer">
-                    <p class="copy">&copy; 2016 Avenue Fashion &trade;</p>
-                    <div class="credits">
-                        <p>Design By RobbyDesigns.com</p>
-                        <p>Dev by Loremipsum.com</p>
-                    </div>
+        </section>
+    </main>
+    <footer>
+        <div class="column-foo">
+            <ul class="sec-foo">
+                <h4>INFORMATION</h4>
+                <li><a href="#">The brand</a></li>
+                <li><a href="#">Local stores</a></li>
+                <li><a href="#">Customer service</a></li>
+                <li><a href="#">Privacy & cookies</a></a></li>
+                <li><a href="#">Site map</a></a></li>
+            </ul>
+            <ul class="sec-foo">
+                <h4>WHY BUY FROM US</h4>
+                <li><a href="#">Shipping & returns</a></li>
+                <li><a href="#">Secure shopping</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Award winning</a></li>
+                <li><a href="#">Ethical trading</a></li>
+            </ul>
+            <ul class="sec-foo">
+                <h4>YOUR ACCOUNT</h4>
+                <li><a href="#">Sign in</a></li>
+                <li><a href="#">Register</a></li>
+                <li><a href="#">View cart</a></li>
+                <li><a href="#">View your lookbook</a></li>
+                <li><a href="#">Track an order</a></li>
+                <li><a href="#">Update information</a></li>
+            </ul>
+            <ul class="sec-foo">
+                <h4>LOOKBOOK</h4>
+                <li><a href="#">Latest post</a></li>
+                <li><a href="#">Men's lookbook</a></li>
+                <li><a href="#">Women's lookbook</a></li>
+                <li><a href="#">Lookbook RSS feed</a></li>
+                <li><a href="#">View your lookbook</a></li>
+                <li><a href="#">Delete your lookbook</a></li>
+            </ul>
+            <ul class="sec-foo">
+                <h4>CONTACT DETAILS</h4>
+                <li class="sec-foo-end-list-element">Head Office: Avenue Fashion. 180-182 Regent Street, London.
+                </li>
+                <li class="sec-foo-end-list-element">Telephone: 0123-456-789</li>
+                <li class="sec-foo-end-list-element">Email: support@yourwebsite.com</li>
+            </ul>
+        </div>
+        <div class="footer-container">
+            <div class="footer-award-container">
+                <h5>AWARD WINNER</h5>
+                <p>FASHION AWARDS 2O16</p>
+            </div>
+            <div class="footer-social-media">
+                <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fab fa-facebook-f fa-2x" id="icon-foo"></i>
+                </a>
+                <a href="https://www.twitter.com/" target="_blank">
+                    <i class="fab fa-twitter fa-2x" id="icon-foo"></i>
+                </a>
+                <a href="http://instagram.com/" target="_blank">
+                    <i class="fab fa-instagram fa-2x" id="icon-foo"></i>
+                </a>
+                <a href="https://pinterest.com/" target="_blank">
+                    <i class="fab fa-pinterest fa-2x" id="icon-foo"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-end">
+            <div class="footer-end-subcontainer">
+                <p class="copy">&copy; 2016 Avenue Fashion &trade;</p>
+                <div class="credits">
+                    <p>Design By RobbyDesigns.com</p>
+                    <p>Dev by Loremipsum.com</p>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
 </body>
 
 </html>
