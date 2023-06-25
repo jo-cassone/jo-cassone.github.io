@@ -421,7 +421,7 @@ span {
 .direction p {
   color: #8e8c8c;
   font-size: 10pt;
-  font-weight: 300;
+  font-weight: 400;
 }
 .rrss {
   display: flex;
@@ -505,14 +505,14 @@ footer {
   line-height: 35px;
   color: #727272;
   font-size: 11pt;
-  font-weight: 200;
+  font-weight: 400;
 }
 .sec-foo a:hover {
   color: #00c8c8;
 }
 .sec-foo-end-list-element {
   padding-bottom: 20px;
-  font-weight: 200;
+  font-weight: 400;
   color: #727272;
   font-size: 11pt;
 }
@@ -535,7 +535,7 @@ footer {
   font-size: 250%;
 }
 .footer-award-container p {
-  font-weight: 300;
+  font-weight: 400;
 }
 .footer-award-container h5 {
   font-weight: 700;
@@ -785,7 +785,7 @@ footer {
     padding: 20px 0 0 20px;
   }
   .map-text p {
-    font-size: 8pt;
+    font-size: 10pt;
   }
   .p-direct {
     line-height: 19px;
@@ -807,7 +807,7 @@ footer {
     width: 60%;
   }
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .header-top {
     padding: 0;
   }
@@ -899,9 +899,6 @@ footer {
     height: 170px;
     bottom: 22px;
   }
-  .bg-header img {
-    height: 245px;
-  }
   .intro-bg {
     height: 100%;
   }
@@ -940,8 +937,8 @@ footer {
     flex-direction: column;
     height: 620px;
   }
-  .section-map img {
-    padding: 0;
+  .section-map .iframe-map {
+    height: 400px;
     width: 100%;
   }
   .map-text {
@@ -955,14 +952,17 @@ footer {
     width: 100%;
   }
   .sec-foo h4 {
-    font-size: 7pt;
+    font-size: 10pt;
   }
   .sec-foo a {
-    font-size: 8pt;
+    font-size: 9pt;
   }
   .sec-foo-end-list-element {
-    font-size: 8pt;
+    font-size: 9pt;
     width: 100%;
+  }
+  .column-foo {
+    padding: 0 24px;
   }
   .footer-container {
     width: 90%;
@@ -982,7 +982,7 @@ footer {
     width: 65%;
   }
 }
-@media screen and (max-width: 425px) {
+@media (max-width: 576px) {
   .header-top {
     padding: 0;
   }
@@ -1004,6 +1004,7 @@ footer {
     background: #00c8c8;
     width: 50px;
     height: 45px;
+    margin-right: 20px;
   }
   #user-icon {
     z-index: 1;
@@ -1086,7 +1087,7 @@ footer {
     width: 358px;
     height: 400px;
     top: 35px;
-    left: 20px;
+    left: 100px;
     padding: 13px 16px;
   }
   .tittle {
@@ -1116,11 +1117,16 @@ footer {
     width: 298px;
     height: 150px;
   }
+  .nav-contents .search-box #search-type {
+    width: 200px;
+  }
   .bg-header {
-    height: 265px;
+    height: 360px;
   }
   .intro-bg {
     background-image: url(../img/intro-img-s.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
   }
   .bg-header img {
@@ -1164,7 +1170,7 @@ footer {
   .section-map {
     flex-direction: column;
     margin: 30px 0 60px 0;
-    height: 530px;
+    height: 700px;
   }
   .section-map img {
     width: 100%;
@@ -1174,7 +1180,7 @@ footer {
     padding: 30px 0;
   }
   .map-text h4 {
-    font-size: 9pt;
+    font-size: 14pt;
   }
   .p-direct {
     margin: 0 15px;
